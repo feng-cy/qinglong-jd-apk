@@ -18,26 +18,29 @@
         android:layout_gravity="bottom"
         android:gravity="center_horizontal"
         android:layout_alignParentBottom="true"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/setQingLongButton"
-            android:layout_width="300dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/qinglong_login_name" />
 
         <Button
             android:id="@+id/uploadCookieButton"
-            android:layout_width="300dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/action_upload_jd_cookie" />
 
 
 
         <Button
             android:id="@+id/clear_webview"
-            android:layout_width="300dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/action_clear_webview" />
     </LinearLayout>
 
