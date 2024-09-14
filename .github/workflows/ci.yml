@@ -31,5 +31,6 @@ jobs:
     - name: 发布
       uses: softprops/action-gh-release@v2
       with:
+        tag_name: V1.0.5
         files: |
           app/build/outputs/apk/ci/**/*.*
